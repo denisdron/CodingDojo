@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ninja Arena</title>
+        <meta name="description" content="This program tests jQuery functionality.">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+        <script type="text/javascript" src="arena.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="box" id="gameMenu">
+                <h1>Select Arena</h1>
+                    <button type="button" name="button" id="setHome">Home</button>
+                    <button type="button" name="button" id="setStadium">Stadium</button>
+                    <button type="button" name="button" id="setKrusty">Krusty</button>
+                    <button type="button" name="button" id="setNuclearPlant">Nuclear Plant</button>
+                    <button type="button" name="button" id="setKwikEMart">Kwik-E-Mart</button>
+                    <button type="button" name="button" id="setSchool">School</button>
+            </div>
+
+            <div class="box" id="selectPlayer">
+                <h1>Select Player</h1>
+                <select id="left">
+                    <option value="bart">Bart</option>
+                    <option value="flanders">Mr.Flanders</option>
+                    <option value="homer">Homer</option>
+                    <option value="lisa">Lisa</option>
+                </select>
+
+                <select id="right">
+                    <option value="bart">Bart</option>
+                    <option value="flanders">Mr.Flanders</option>
+                    <option value="homer">Homer</option>
+                    <option value="lisa">Lisa</option>
+                </select>
+
+                <div id="containPlayer">
+                    <div class="player" id="playerOne">
+                        <img src="img/bart.png" alt="image of Bart"/>
+                    </div>
+
+                    <div class="player" id="playerTwo">
+                        <img src="img/bart.png" alt="image of Bart"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#pokemonImages{
+    width: 756px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#pokemonDetails{
+    width: 315px;
+    height: 560px;
+    border: 40px solid red;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    border-bottom: 80px solid red;
+    margin-left: 40px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}

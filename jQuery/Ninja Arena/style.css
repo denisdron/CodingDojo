@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 960px;
+    height: 540px;
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url('img/original.jpg');
+    background-size: contain;
+    padding-top: 400px;
+    background-repeat: no-repeat;
+}
+
+.box{
+    width: 400px;
+    height: 250px;
+    background-color: silver;
+    margin: 0 auto;
+}
+
+#gameMenu h1{
+    margin-bottom: 60px;
+    margin-top: 20px;
+    font-family: futura;
+}
+button{
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+}
+
+#selectPlayer{
+    display: none;
+    width: 300px;
+    height: 80px;
+    background-color: silver;
+    margin: 0 auto;
+}
+
+.player{
+    display: inline-block;
+    width: 200px;
+    height:300px;
+    /*border: 5px solid red;*/
+    margin-top: 125px;
+}
+
+img{
+    width: 206px;
+
+    /*height: 100%;*/
+}
+
+#containPlayer{
+    margin: 0 auto;
+    display: inline-block;
+    /*border: 5px solid blue;*/
+    width: 500px;
+}

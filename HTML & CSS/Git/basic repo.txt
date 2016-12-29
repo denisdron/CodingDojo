@@ -1,0 +1,18 @@
+//created a new repo on GitHub and called it basic_repo
+mkdir basic_repo
+cd basic_repo
+touch index.html
+touch styles.css
+touch notes.txt
+vi notes.txt
+//typed some text
+git init
+git add .
+git status
+git remote add origin https://github.com/denisdron/basic_repo.git
+git push -4 origin master
+vi notes.txt
+//typed some more text
+git add .
+git commit -m "made some changes to notes.txt"
+git push -u origin master

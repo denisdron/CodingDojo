@@ -1,0 +1,30 @@
+//create a folder
+mkdir test
+//navigate to that folder
+cd test
+touch index.html
+touch styles.css
+touch aboutMe.txt
+
+//create a repository
+git init
+//will change the state to "staged"
+git add .
+git commit -m "initial commit"
+
+//"vi" to type inside that file
+vi aboutMe.txt (wrote some text)
+git add.
+git commit -m "updated aboutMe"
+
+vi aboutMe.txt (wrote some text)
+git add.
+git commit -m "added fav...."
+
+//to see the list of our commits
+git log
+
+git revert -n <hash>
+vi aboutMe.txt (wrote some text)
+git add.
+git commit -m "new changes"
